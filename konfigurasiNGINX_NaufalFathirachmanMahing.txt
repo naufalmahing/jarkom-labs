@@ -18,7 +18,7 @@
 
 # Default server configuration
 #
-limit_req_zone $binary_remote_addr zone=one:10m rate=30r/m;
+limit_req_zone $binary_remote_addr zone=one:10m rate=6r/m;
 
 server {
 	listen 3000 default_server;
